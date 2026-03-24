@@ -130,6 +130,26 @@ In `mcp_remote.py` you can adjust:
 - `max_frames` - Maximum frames to return (default 10, max 20)
 - `whisper model` - Using "base" for speed, can use "small" or "medium" for accuracy
 
+## Updating
+
+Pull the latest code and redeploy — that's it:
+
+```bash
+cd video-watch-mcp
+git pull
+modal deploy mcp_remote.py
+```
+
+Your MCP URL stays the same, no client config changes needed.
+
+**Coming from the old `maryfellowes/video-watch-mcp` repo?** That repo has been removed. Update your remote:
+
+```bash
+git remote set-url origin https://github.com/codependentai/video-watch-mcp.git
+git pull
+modal deploy mcp_remote.py
+```
+
 ## Limitations
 
 - Very long videos (30+ min) may timeout
