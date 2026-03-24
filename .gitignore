@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+ENV/
+
+# Modal
+.modal/
+
+# IDE
+.vscode/
+.idea/
+
+# Local files
+*.log
+deploy_output.txt
+mcp-server/
+
+# OS
+.DS_Store
+Thumbs.db
