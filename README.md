@@ -170,3 +170,9 @@ MIT - do whatever you want with it.
 ---
 
 Built by [Codependent AI](https://codependentai.io).
+
+## Support
+
+Built by [Codependent AI](https://codependentai.io).
+
+<a href="https://ko-fi.com/codependentai"><img src="https://img.shields.io/badge/Ko--fi-Support%20Us-ff5e5b?logo=ko-fi&logoColor=white" alt="Ko-fi" /></a>
